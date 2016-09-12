@@ -21,7 +21,7 @@ while True:  # This will keep looping until we break out.
         # Read the next line
         line = tide_file.readline()
 
-        # Split this line into words.
+        # Split this line into words. splits by white space
         words = line.split()
 
         # If we do not have 5 words then it must be blank lines at the end of the file.

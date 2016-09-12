@@ -7,7 +7,7 @@ n = 0
 
 # Loop to perform sum
 for number in infile:
-    number = float(number)
+    number = float(number) #when you read from file you get a string
     mean = mean + number
     n += 1
 
